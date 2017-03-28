@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TIC TAC TOE</title>
+    <link rel='stylesheet' type='text/css' href='css/styles.css'>
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  </head>
+  <body onLoad =  "startGame();">
+
+    <div class="content">
+        <p id="message">1 click -"X", 2 click - "O", 4 click - empty</p>
+        <div class="wrapper">
+            <div class="square"><!--ADD WON CLASS -->
+                <div  class="row">
+                    <div class="block" id="s1" onClick="nextMove(this)">
+                    </div>
+                    <div class="block" id="s2" onClick="nextMove(this)">
+                    </div>
+                    <div class="block" id="s3" onClick="nextMove(this)">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="block" id="s4" onClick="nextMove(this)">
+                    </div>
+                    <div class="block" id="s5" onClick="nextMove(this)">
+                    </div>
+                    <div class="block" id="s6" onClick="nextMove(this)">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="block" id="s7" onClick="nextMove(this)">
+                    </div>
+                    <div class="block" id="s8" onClick="nextMove(this)">
+                    </div>
+                    <div class="block" id="s9" onClick="nextMove(this)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="konradzik"></div>
+    </div>
+
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+    <script src='js/main.js'></script>
+  </body>
+</html>
